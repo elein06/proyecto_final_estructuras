@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E9E9EA;
+    margin: 0;
+}
+
+.contendor-queue {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.queue {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F9F9E0;
+    overflow-x: auto;
+}
+
+.queue-item {
+    width: 50px;
+    height: 80px;
+    margin: 0 5px;
+    border: 1px solid #FF9EAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD0D0;
+}
+
+.controles {
+    margin-bottom: 20px;
+}
+
+.controles input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.controles button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #3AA6B9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+}
