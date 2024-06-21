@@ -1,4 +1,5 @@
-body {
+body 
+{
     font-family: Arial, sans-serif;
     width: 100%;
     display: flex;
@@ -9,13 +10,15 @@ body {
     margin: 0;
 }
 
-.contendor-queue {
+.contendor-queue 
+{
     display: flex;
     gap: 20px;
     flex-direction: row;
 }
 
-.queue {
+.queue 
+{
     width: 700px;
     height: 100px;
     margin: 0 auto 20px;
@@ -26,7 +29,8 @@ body {
     overflow-x: auto;
 }
 
-.queue-item {
+.queue-item 
+{
     width: 50px;
     height: 80px;
     margin: 0 5px;
@@ -37,16 +41,19 @@ body {
     background-color: #FFD0D0;
 }
 
-.controles {
+.controles 
+{
     margin-bottom: 20px;
 }
 
-.controles input {
+.controles input 
+{
     padding: 5px;
     margin-right: 10px;
 }
 
-.controles button {
+.controles button 
+{
     padding: 5px 10px;
     margin-right: 10px;
     cursor: pointer;
